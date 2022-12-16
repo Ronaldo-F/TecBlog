@@ -28,7 +28,7 @@ a {
 }
 #cabeçalho a:active {
 	color: #FFBF00;
-	background: #424242;
+	background: #585858;
 }
 #cabeçalho h1 {
 	width: 49%;
@@ -38,24 +38,24 @@ a {
 }
 .preto {
 	text-align: right;
-	color: #424242;
+	color: #585858;
 }
 .branco {
 	color: white;
 	text-align: left;
 }
 #base {
-	width: 1035px;
-	height: 1276px;
+	width: 1043px;
+	height: 1265px;
 	margin: 15px auto;
 }
 #base a:hover {
-	color: #424242;
+	color: #585858;
 }
 .corpo {
 	background: white;
 	width: 643px;
-	height: 1230px;
+	height: 1220px;
 	padding: 25px 20px 20px 20px;
 }
 .corpo a {
@@ -81,8 +81,8 @@ a {
 	padding: 1px 20px 10px 20px;
 	margin: 10px 20vw 10px 10px;
 	position: relative;
-	bottom: 1285px;
-	left: 690px;
+	bottom: 1275px;
+	left: 693px;
 }
 .notas a {
 	color: #FFBF00;
@@ -93,6 +93,7 @@ a {
 	background: #D8D8D8;
 	padding: 2px 4px 4px 4px;
 	text-align: center;
+	color: #585858;
 }
 .fundo {
 	background: #F2F2F2;
@@ -106,7 +107,7 @@ a {
 }
 #rodape {
 	width: 100vw;
-	background: #A4A4A4;
+	background: #BDBDBD;
  	margin-top: 10px;
 	padding: 5px;
 	text-align: center;
