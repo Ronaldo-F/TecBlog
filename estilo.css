@@ -1,60 +1,117 @@
 body {
-	background: #E6E6E6;
-	font-family: sans-serif;
+	background: #F2F2F2;
+	font-family: 'Open Sans';
+	margin: 0px;
+	padding: 0px;
 }
 a {
 	text-decoration: none;
 }
 #cabeçalho {
 	background: #FFBF00;
-	padding-bottom: 20px;
-	margin-top: -22px;
-	margin-left: -9px;
-	margin-right: -10px;
+	height: 130px;
+	width: 100%;
+	padding: 15px;
+	margin: -10px -10px 10px -10px;
+	text-align: center;
 }
 #cabeçalho a {
-	padding: 5px;
+	padding: 7px;
 	color: white;
+	margin: 5px;
+	position: relative;
+	bottom: 5px;
 }
-.branco{
-	color: white;
+#cabeçalho a:hover {
+	color: #FFBF00;
+	background: white;
+}
+#cabeçalho a:active {
+	color: #FFBF00;
+	background: #424242;
 }
 #cabeçalho h1 {
-	border: 1px red solid;
+	width: 49%;
+	margin: 30px 0px;
+	float: left;
+	display: inline;
+}
+.preto {
+	text-align: right;
+	color: #424242;
+}
+.branco {
+	color: white;
+	text-align: left;
+}
+#base {
+	width: 1035px;
+	height: 1276px;
+	margin: 15px auto;
+}
+#base a:hover {
+	color: #424242;
+}
+.corpo {
+	background: white;
+	width: 643px;
+	height: 1230px;
+	padding: 25px 20px 20px 20px;
+}
+.corpo a {
+	color: #FFBF00;
+}
+.corpo h3 {
+	margin: 0px;
 }
 .amarelo {
 	color: #FFBF00;
-	margin-bottom: -1px;
+	margin-bottom: -3px;
 	margin-top: 0px;
 }
-#corpo {
-	background: white;
-	width: 645px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 15px
-}
-#corpo a {
-	color: #FFBF00;
+.fonte {
+	font-size: 13px;
 }
 .imagem {
-	margin-top: 25px;
+	margin-top: 20px;
 }
-#notas h3 {
-	background: gray;
-	padding: 2px 4px 4px 4px;
-}
-#notas {
+.notas {
 	background: white;
 	width: 300px;
-	padding: 1px 10px 10px 10px;
-	margin-bottom: 10px;
+	padding: 1px 20px 10px 20px;
+	margin: 10px 20vw 10px 10px;
+	position: relative;
+	bottom: 1285px;
+	left: 690px;
 }
-#notas a {
+.notas a {
 	color: #FFBF00;
 	display: block;
+	padding: 2px;
+}
+.notas h3 {
+	background: #D8D8D8;
+	padding: 2px 4px 4px 4px;
+	text-align: center;
+}
+.fundo {
+	background: #F2F2F2;
+	height: 10px;
+	margin: 10px -20px;
+}
+.fundo1 {
+	background: #F2F2F2;
+	height: 10px;
+	margin: 15px -20px 20px -20px;
 }
 #rodape {
-	background: gray;
+	width: 100vw;
+	background: #A4A4A4;
+ 	margin-top: 10px;
 	padding: 5px;
+	text-align: center;
+	clear: both;
+}
+.clear {
+	clear: left;
 }
